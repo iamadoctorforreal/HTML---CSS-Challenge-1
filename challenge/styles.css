@@ -1,0 +1,114 @@
+body{
+   margin: 0 auto;
+}
+
+body > div{
+   font-family:sans-serif;
+   margin-left: 0%;
+   margin-right: 0%;
+   margin-top: 1em;
+   margin-bottom:1em;
+}
+
+#header {
+    margin:0;
+}
+
+#header2 {
+    margin:0;
+}
+
+#nav {
+    /*text-align: right; */
+    width: 80%;
+    margin: 0;
+}
+
+#logo {
+    text-align: left;
+    background-color: blue;
+    width:20%;
+}
+
+#menu {
+    text-align: right;
+    background-color: orange;
+    width:50%;
+    position:absolute;
+    top: 2em;
+    right:5em;
+}
+
+#btn {
+    text-align: left;
+    background-color:green;
+    width:30%;
+    position: absolute;
+    top:2em;
+    right:1em;
+}
+
+#login {
+    
+    margin-right:0.5em;
+}
+
+#course {
+    
+    margin-right:0.5em;
+}
+
+
+ul li{
+   display: inline-block;
+   margin-left:0.5em;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#container div {
+    margin-left: 0;
+    margin-right: 0%;
+    margin-top: 1em;
+    margin-bottom:1em;
+}
+
+#top {
+    background-color: blueviolet;
+    height:25em;
+}
+
+#main {
+    background-color: pink;
+    max-height:40em;
+    min-height:40em;
+}
+
+#main div {
+    background-color: rgba(0,0,0,.5);
+    height:40em;
+    display:inline-block;
+   width:5em;
+   margin:2em;
+}
+
+#bottom {
+    background-color: grey;
+    height:25em;
+}
+
+#footer {
+    background-color: blue;
+    height:20em;
+}
+
+#footer1 {
+    background-color:black;
+    height:5em;
+}
